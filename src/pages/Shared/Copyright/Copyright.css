@@ -1,0 +1,20 @@
+.copyright {
+    margin-top: 70px;
+}
+.copyright p {
+    color: #fff;
+}
+.copyright ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    margin: 0;
+}
+.copyright ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 40px;
+} 
+.copyright ul li:hover a {
+    color: #fff;
+}

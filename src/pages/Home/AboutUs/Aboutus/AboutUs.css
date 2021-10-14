@@ -1,0 +1,14 @@
+.about-area {
+    padding-bottom : 60px;
+}
+.section-title h2 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.section-title p {
+    width: 570px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}

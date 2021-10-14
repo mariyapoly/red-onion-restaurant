@@ -1,0 +1,76 @@
+.banner-part {
+    background: url(../../../images/bannerbackground.png) no-repeat center;
+    background-size: cover;
+    padding: 250px 0;
+}
+.banner-part h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.banner-part form {
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+} 
+.banner-part input {
+    width: 100%;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 35px;
+    outline: none;
+    color: #666;
+}
+.banner-part input:placeholder {
+    color: #666;
+}
+.banner-part form .regular-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 130px;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width:575px) {
+    .banner-part {
+        padding: 200px 0 120px;
+    }
+    .banner-part h1 {
+        font-size: 36px;
+    }
+    .banner-part form {
+        width: auto;
+        margin: 0;
+    }
+    .banner-part form .regular-btn {
+        position: static;
+        margin-top: 15px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .banner-part {
+        padding: 200px 0 120px;
+    }
+    .banner-part h1 {
+        font-size: 36px;
+    }
+    .banner-part form {
+        width: auto;
+        margin: 0;
+    }
+    
+}
+@media only screen and (min-width: 768px) and (max-width:991px) {
+
+    .banner-part h1 {
+        font-size: 48px;
+    }
+    
+}
+
+
+
+
+

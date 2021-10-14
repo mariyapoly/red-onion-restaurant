@@ -1,0 +1,49 @@
+.menu-container {
+    padding: 90px 0;
+}
+.menu-items {
+    list-style: none;
+    margin-bottom: 70px;
+}
+.menu-items li button {
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 0 40px;
+    color: #101010;
+    font-weight: 600;
+    font-size: 20px;
+    background: no-repeat;
+    border: 0;
+}
+.menu-items li a.active {
+    color: #F91944;
+    position: relative;
+}
+.menu-items li a.active::before {
+    position: absolute;
+    content: '';
+    bottom: -3px;
+    left: 0;
+    right: 0;
+    width: 50px;
+    height: 2px;
+    background: #F91944;
+    text-align: center;
+    margin: 0 auto;
+}
+.checkout-btn {
+    background: #CECECE;
+    color: #fff;
+    border: 0;
+    padding: 10px 40px;
+    text-transform: capitalize;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+.menu-items-container {
+    min-height: 720px;
+}
+/* .active {
+    background-color: red;
+} */
