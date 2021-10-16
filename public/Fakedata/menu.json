@@ -1,0 +1,128 @@
+[
+    {
+        "menuId": "krjeq1",
+        "menuThumb": "https://i.ibb.co/9pT5xyV/breakfast-1.png",
+        "menuTitle": "begel and cream cheese",
+        "menuDes": "How we dream about our future",
+        "price": 6.99
+    },
+    {
+        "menuId": "poxge2",
+        "menuThumb": "https://i.ibb.co/pRx1qQM/breakfast-2.png",
+        "menuTitle": "breakfast sandwich",
+        "menuDes": "How we dream about our future",
+        "price": 9.99
+    },
+    {
+        "menuId": "kueor3",
+        "menuThumb": "https://i.ibb.co/4KBQD98/breakfast-3.png",
+        "menuTitle": "baked chiken",
+        "menuDes": "How we dream about our future",
+        "price": 10.99
+    },
+    {
+        "menuId": "poldw4",
+        "menuThumb": "https://i.ibb.co/WHgYByK/breakfast-4.png",
+        "menuTitle": "eggs benedict",
+        "menuDes": "How we dream about our future",
+        "price": 8.99
+    },
+    {
+        "menuId": "mkuwe5",
+        "menuThumb": "https://i.ibb.co/PZrvXFz/breakfast-5.png",
+        "menuTitle": "toast croissant fried egg",
+        "menuDes": "How we dream about our future",
+        "price": 19.99
+    },
+    {
+        "menuId": "bwrgh6",
+        "menuThumb": "https://i.ibb.co/BLTYLsj/breakfast-6.png",
+        "menuTitle": "full breakfast fried egg toast brunch",
+        "menuDes": "How we dream about our future",
+        "price": 3.99
+    },
+    {
+        "menuId": "pouwxf7",
+        "menuThumb": "https://i.ibb.co/L9mRG6g/dinner-1.png",
+        "menuTitle": "salmon with grapefruit and lentil salad",
+        "menuDes": "How we dream about our future",
+        "price": 9.99
+    },
+    {
+        "menuId": "loiew8",
+        "menuThumb": "https://i.ibb.co/0cGZLgF/dinner-2.png",
+        "menuTitle": "lemony salmon piccata",
+        "menuDes": "How we dream about our future",
+        "price": 10.99
+    },
+    {
+        "menuId": "wkitn9",
+        "menuThumb": "https://i.ibb.co/FmYR47Y/dinner-3.png",
+        "menuTitle": "pork tenderloin with quinoa pilaf",
+        "menuDes": "How we dream about our future",
+        "price": 12.99
+    },
+    {
+        "menuId": "poew10",
+        "menuThumb": "https://i.ibb.co/z4pbZXm/dinner-4.png",
+        "menuTitle": "french fries with cheese",
+        "menuDes": "How we dream about our future",
+        "price": 8.99
+    },
+    {
+        "menuId": "kiom11",
+        "menuThumb": "https://i.ibb.co/dGbWLJc/dinner-5.png",
+        "menuTitle": "garlic butter baked salmon",
+        "menuDes": "How we dream about our future",
+        "price": 6.99
+    },
+    {
+        "menuId": "sght12",
+        "menuThumb": "https://i.ibb.co/VLcK6WJ/dinner-6.png",
+        "menuTitle": "baked chiken",
+        "menuDes": "How we dream about our future",
+        "price": 9.99
+    },
+    {
+        "menuId": "ourt13",
+        "menuThumb": "https://i.ibb.co/pbg6KQt/lunch-1.png",
+        "menuTitle": "healthy meal plan",
+        "menuDes": "How we dream about our future",
+        "price": 23.99
+    },
+    {
+        "menuId": "lotyh14",
+        "menuThumb": "https://i.ibb.co/T8vb1S1/lunch-2.png",
+        "menuTitle": "fried chicken bento",
+        "menuDes": "How we dream about our future",
+        "price": 9.99
+    },
+    {
+        "menuId": "lhjb15",
+        "menuThumb": "https://i.ibb.co/DLb3wx0/lunch-3.png",
+        "menuTitle": "tarragon-rubbed-salmon",
+        "menuDes": "How we dream about our future",
+        "price": 6.99
+    },
+    {
+        "menuId": "lour16",
+        "menuThumb": "https://i.ibb.co/zbdZRVH/lunch-4.png",
+        "menuTitle": "indian lunch",
+        "menuDes": "How we dream about our future",
+        "price": 8.99
+    },
+    {
+        "menuId": "pfg17",
+        "menuThumb": "https://i.ibb.co/4SMhdsR/lunch-5.png",
+        "menuTitle": "beef steak",
+        "menuDes": "How we dream about our future",
+        "price": 15.99
+    },
+    {
+        "menuId": "mhjj18",
+        "menuThumb": "https://i.ibb.co/zPjnJ3C/lunch-6.png",
+        "menuTitle": "honey-soy-glazed salmon with peppers",
+        "menuDes": "How we dream about our future",
+        "price": 7.99
+    }
+]

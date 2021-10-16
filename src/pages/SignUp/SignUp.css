@@ -1,0 +1,37 @@
+.section-bg {
+    background: url(../../images/bannerbackground2.png) no-repeat center;
+    background-size: cover;
+    padding: 75px 0 100px;
+}
+.input-form img {
+    width: 300px;
+}
+
+.input-form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.input-form .logo {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.input-form input {
+    width: 100%;
+    background: #F5F5F5;
+    border: 0;
+    margin: 10px 0;
+    padding: 10px 15px;
+}
+.input-form input.signin-btn {
+    background: #F91944;
+    color: #F5F5F5;
+}
+
+.input-form button {
+    margin: 10px;
+}
+.input-form a.account-link {
+    color: #F91944;
+    text-decoration: none;
+}

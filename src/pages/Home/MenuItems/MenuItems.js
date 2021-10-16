@@ -7,29 +7,18 @@ import './MenuItems.css'
 const MenuItems = () => {
 
     const [menuItems, setMenuItems] = useState(<Breakfast></Breakfast>);
-    const [isActive, setIsActive] = useState(true);
 
 
     const handleBreakfastBtn = (e) => {
         setMenuItems(<Breakfast></Breakfast>);
-        if (isActive) {
-            e.target.className = 'active';
-        }
-
     }
 
     const handleLunchBtn = (e) => {
         setMenuItems(<Lunch></Lunch>);
-        if (isActive) {
-            e.target.className = 'active';
-        }
     }
 
     const handleDinnerhBtn = (e) => {
         setMenuItems(<Dinner></Dinner>);
-        if (isActive) {
-            e.target.className = 'active';
-        }
     }
 
 

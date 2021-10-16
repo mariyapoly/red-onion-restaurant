@@ -1,27 +1,20 @@
 import React from 'react';
-import { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
+import useAuth from '../../../hooks/useAuth';
 import MenuItem from '../MenuItem/MenuItem';
 import './Breakfast.css';
 
 const Breakfast = () => {
 
-    const [menuItems, setMenuItems] = useState([])
+    const { menus } = useAuth();
 
-    useEffect(() => {
-        fetch('./Fakedata/breakfast.json')
-            .then(res => res.json())
-            .then(data => setMenuItems(data))
-    }, [])
-
-
-
+    const breakFastMenu = menus.slice(0, 6);
 
     return (
         <Container>
             <Row>
                 {
-                    menuItems.map(item => <MenuItem
+                    breakFastMenu.map(item => <MenuItem
                         key={item.menuId}
                         item={item}></MenuItem>)
                 }

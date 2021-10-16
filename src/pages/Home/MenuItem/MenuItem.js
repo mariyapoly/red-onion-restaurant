@@ -1,15 +1,23 @@
 import React from 'react';
 import { Col } from 'react-bootstrap';
+import { useHistory } from 'react-router-dom';
 import './MenuItem.css'
 
 const MenuItem = ({ item }) => {
 
-    const { menuThumb, menuTitle, menuDes, price } = item
+
+    const { menuId, menuThumb, menuTitle, menuDes, price } = item;
+
+    const history = useHistory();
+
+    const handleMeuItem = () => {
+        history.push(`/menu/${menuId}`)
+    }
 
 
     return (
         <Col lg={4} className="signle-item">
-            <div className="menu-item">
+            <div onClick={handleMeuItem} className="menu-item">
                 <div className="menu-thumb">
                     <img src={menuThumb} alt="" />
                 </div>

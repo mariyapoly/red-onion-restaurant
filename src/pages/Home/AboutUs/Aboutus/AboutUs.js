@@ -1,18 +1,12 @@
-import React, { useEffect, useState } from 'react';
+
 import { Container, Row } from 'react-bootstrap';
 import About from '../About/About';
+import useAuth from '../../../../hooks/useAuth';
 import './AboutUs.css'
 
 const AboutUs = () => {
 
-    const [about, setAbout] = useState([]);
-
-    useEffect(() => {
-        fetch('./Fakedata/about.json')
-            .then(res => res.json())
-            .then(data => setAbout(data))
-    }, [])
-
+    const { about } = useAuth();
 
     return (
         <section className="about-area">

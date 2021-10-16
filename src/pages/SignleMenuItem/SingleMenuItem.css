@@ -1,0 +1,43 @@
+.menu-thumb img {
+    width: 100%;
+}
+.menu-content {
+    padding-right: 150px;
+}
+.menu-text {
+    font-size: 15px;
+    line-height: 24px;
+}
+.menu-content h2 {
+    text-transform: capitalize;
+    font-size: 36px;
+    color: #101010;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.pricing {
+    margin-bottom: 25px;
+}
+.pricing h4 {
+    color: #101010;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.pricing button {
+    border: 0;
+    background: no-repeat;
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+.button {
+    border: 1px solid #666666;
+    padding: 0 15px;
+    border-radius: 35px;
+}
+.button p {
+    color: #101010;
+    font-size: 20px;
+    margin: 0;
+}

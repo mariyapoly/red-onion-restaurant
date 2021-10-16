@@ -7,7 +7,7 @@
 .copyright ul {
     list-style: none;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     margin: 0;
 }
 .copyright ul li a {
