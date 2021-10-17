@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
-import useAuth from '../../../hooks/useAuth';
+import useLoadData from '../../../hooks/useLoadData';
 import MenuItem from '../MenuItem/MenuItem';
 
 const Lunch = () => {
 
-    const { menus } = useAuth();
+    const { menus } = useLoadData();
 
     const LunchMenu = menus.slice(12, 18);
 

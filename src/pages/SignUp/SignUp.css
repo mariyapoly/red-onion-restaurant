@@ -16,12 +16,18 @@
     margin-bottom: 20px;
     display: inline-block;
 }
-.input-form input {
+.input-form input,textarea {
     width: 100%;
     background: #F5F5F5;
     border: 0;
     margin: 10px 0;
     padding: 10px 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    outline: none;
 }
 .input-form input.signin-btn {
     background: #F91944;

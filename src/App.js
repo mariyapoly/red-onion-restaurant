@@ -6,6 +6,7 @@ import SignUp from './pages/SignUp/SignUp';
 import LogIn from './pages/LogIn/LogIn';
 import AuthProvider from './Context/AuthProvider';
 import MenuDetails from './pages/MenuDetails/MenuDetails';
+import DeliveryCartDetails from './pages/DeliveryCartDetails/DeliveryCartDetails';
 
 
 
@@ -19,6 +20,9 @@ function App() {
           </Route>
           <Route exact path="/home">
             <Home></Home>
+          </Route>
+          <Route exact path="/cart">
+            <DeliveryCartDetails></DeliveryCartDetails>
           </Route>
           <Route exact path="/signup">
             <SignUp></SignUp>

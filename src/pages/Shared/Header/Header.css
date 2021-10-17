@@ -27,6 +27,24 @@ a.navbar-brand img {
     border-radius: 30px;
     border: 0;
 }
+a.cart {
+    position: relative;
+}
+
+a.cart span {
+    position: absolute;
+    top: -11px;
+    right: -11px;
+    background: #F91944;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
     .navbar {

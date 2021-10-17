@@ -1,12 +1,12 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
-import useAuth from '../../../hooks/useAuth';
+import useLoadData from '../../../hooks/useLoadData';
 import MenuItem from '../MenuItem/MenuItem';
 import './Breakfast.css';
 
 const Breakfast = () => {
 
-    const { menus } = useAuth();
+    const { menus } = useLoadData();
 
     const breakFastMenu = menus.slice(0, 6);
 

@@ -4,11 +4,18 @@ import { HashLink } from 'react-router-hash-link';
 import './Header.css';
 import logo from '../../../images/logo2.png';
 import { NavLink } from 'react-router-dom';
-import cart from '../../../images/ICON/cart.png'
+import cartIcon from '../../../images/ICON/cart.png';
+import useAuth from '../../../hooks/useAuth';
 
 const Header = () => {
+
+    const [cart] = useAuth();
+
+    const totalQuantity = cart.reduce((previous, food) => previous + food.quantity, 0)
+
     return (
         <>
+
             <Navbar expand="lg" sticky='top'>
                 <Container>
                     <Navbar.Brand as={HashLink} to="/">
@@ -17,7 +24,9 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto d-flex align-items-center">
-                            <NavLink to="/cart"><img src={cart} alt="" /></NavLink>
+                            <NavLink className="cart" to="/cart"><img src={cartIcon} alt="" />
+                                <span>{totalQuantity}</span>
+                            </NavLink>
                             <NavLink to="/login">login</NavLink>
                             <NavLink to="/signup" className="regular-btn">signup</NavLink>
                         </Nav>

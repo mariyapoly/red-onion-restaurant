@@ -1,12 +1,12 @@
 
 import { Container, Row } from 'react-bootstrap';
 import About from '../About/About';
-import useAuth from '../../../../hooks/useAuth';
-import './AboutUs.css'
+import './AboutUs.css';
+import useLoadData from '../../../../hooks/useLoadData';
 
 const AboutUs = () => {
 
-    const { about } = useAuth();
+    const { about } = useLoadData();
 
     return (
         <section className="about-area">

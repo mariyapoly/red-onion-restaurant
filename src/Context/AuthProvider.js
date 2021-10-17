@@ -1,17 +1,16 @@
 import { createContext } from "react"
+import useCart from "../hooks/useCart";
 import useFirebase from "../hooks/useFirebase";
-import useLoadData from "../hooks/useLoadData";
 
 
 export const AuthContext = createContext();
 
 const AuthProvider = ({ children }) => {
 
-    const allContext = useFirebase();
-    const loadData = useLoadData();
+    const carts = useCart();
 
     return (
-        <AuthContext.Provider value={loadData}>
+        <AuthContext.Provider value={carts}>
             {children}
         </AuthContext.Provider>
     );

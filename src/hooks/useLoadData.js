@@ -15,7 +15,7 @@ const useLoadData = () => {
 
 
     useEffect(() => {
-        fetch('./Fakedata/menu.json')
+        fetch('https://raw.githubusercontent.com/mariyapoly/red-onion-restaurant/main/public/Fakedata/menu.json')
             .then(res => res.json())
             .then(data => setMenus(data))
     }, [])

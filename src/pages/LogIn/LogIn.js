@@ -6,6 +6,7 @@ import useFirebase from '../../hooks/useFirebase';
 import logo from '../../images/logo2.png';
 
 const LogIn = () => {
+
     const { signInUsignGoogle, user, signInUser, signInUsingGithub, logOut, signInUsignFaceBook, error } = useFirebase();
 
     const { register, handleSubmit, formState: { errors } } = useForm();

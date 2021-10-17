@@ -1,0 +1,11 @@
+.instructor-feild {
+    resize: none;
+}
+.input-form h3 {
+    text-align: left;
+    border-bottom: 1px solid #616161;
+    margin-bottom: 33px;
+    color: #101010;
+    font-size: 24px;
+    padding-bottom: 12px;
+}

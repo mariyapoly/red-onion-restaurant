@@ -2,14 +2,13 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import { useForm } from "react-hook-form";
 import { NavLink } from 'react-router-dom';
-import useAuth from '../../hooks/useAuth';
 import useFirebase from '../../hooks/useFirebase';
 import logo from '../../images/logo2.png';
 import './SignUp.css'
 
 const SignUp = () => {
 
-    const { user, signInUsignGoogle, createNewUser, signInUsingGithub, logOut, signInUsignFaceBook, error } = useFirebase();
+    const { signInUsignGoogle, createNewUser, signInUsingGithub, logOut, signInUsignFaceBook, error } = useFirebase();
 
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => createNewUser(data.email, data.password);

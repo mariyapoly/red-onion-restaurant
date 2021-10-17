@@ -4,9 +4,8 @@ import './SingleMenuItem.css'
 
 const SignleMenuItem = ({ singleMenu, handleAddToCart }) => {
 
-    const { menuThumb, menuTitle, price } = singleMenu;
+    const { price, menuTitle, menuThumb } = singleMenu || {};
 
-    console.log(singleMenu)
 
     const [number, setNumber] = useState(1);
     const [mealPrice, setmealPrice] = useState(price);
@@ -17,6 +16,7 @@ const SignleMenuItem = ({ singleMenu, handleAddToCart }) => {
             setNumber(decrise);
             setmealPrice(mealPrice - price);
         }
+
     }
 
     const handleIncrise = () => {
@@ -35,7 +35,7 @@ const SignleMenuItem = ({ singleMenu, handleAddToCart }) => {
                 <h2>{menuTitle}</h2>
                 <p className="menu-text">Gay one the what then she. Demese mention promise you justice arived way. Amazing foods are Or and increasign to in especially inquietiude companions acceptase admiration. Outweight it families distance wandered ye</p>
                 <div className="d-flex pricing align-items-center">
-                    <h4>${mealPrice}</h4>
+                    <h4>${(price * number).toFixed(2)}</h4>
                     <div className="d-flex button align-items-center">
                         <button onClick={handleDecrise}>-</button>
                         <p id="number">{number}</p>
